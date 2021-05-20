@@ -1,4 +1,4 @@
-class math:
+class equation:
   def qsolv():
     printed = ""
     quadratic = input("Enter the quadratic equation: ")
