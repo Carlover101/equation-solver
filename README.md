@@ -1,4 +1,5 @@
 # Equation-Solver
+
 This is a project that solves mathematic equations for you!
 
 Types:
