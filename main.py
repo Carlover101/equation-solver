@@ -26,6 +26,7 @@ class equation:
     if "x" not in a[1]:
       b = 0
       c = re.sub("[^0-9-.*()/]", "", a[1])
+      a = a[0]
     else:
       c = a[1].split("x")
       b = re.sub("[^0-9-.*()/]", "", c[0])
@@ -86,7 +87,7 @@ class equation:
       for i in range(number):
         print(f"x:")
 
-if "__name__" == "__main__":
+if "__name__" == "__eqsolvecarlover101__":
   equation.quadsolve()
   equation.slopesolve()
   info.commands()
@@ -99,4 +100,4 @@ print("Done!")
 time.sleep(1.5)
 os.system("clear")
 time.sleep(1.5)
-print("Type info.commands() to get started or read the README.md file for for information.")
+print("Type info.commands() to get started or click on 'Code' to read the README.md file for for information.")
