@@ -11,9 +11,10 @@ Types:
 Types in Developement:
 
 1. Slope-Intercept
-    - ***equation.slopesolve()***
+    - ***equation.slopeint()***
+      > This function creates an equation in slope-intercept form from two points.
 
 Other Commands:
 
 1. Command List
-    - ***info.commands()***
+    - ***equation.commands()***
