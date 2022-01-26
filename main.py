@@ -68,7 +68,8 @@ class equation:
     elif printed != True:
       print("\nSolution 1:",x1)
       print("Solution 2:",x2)
-      
+    
+    
   def slopeint():
     import re
     yint = ""
@@ -86,52 +87,135 @@ class equation:
     elif rise/run == -1.0:
       slope = -1
       calc = 0
+    elif rise == 0:
+      slope = "x"
+      calc = -1
     else:
       slope = rise/run
       calc = 1
-    yint =  [float(point1),float(point2)]
-    if calc == 0:
+    if calc == -1:
+      yint = 0
+    elif calc == 0:
       if float(point1) != 0:
-        yint[0] -= float(point1)
-        yint[1] -= float(point1)
+        yint -= float(point1)
     elif calc == 1:
-      start = [0,0]
-      for i in range(5):
-        start[1] -= 0.01
-        slope2 = float(point3) - start[0]/float(point4) - start[1]
-        if slope == slope2:
-          break
-        slope2 = -1*slope2
-        if slope == slope2:
-          break
-        slope2 = -1*slope2
-    if yint == [0.0,0.0]:
+      number = float(point4)
+      number2 = 0.01
+      number3 = slope
+      number4 = float(point3)
+      divider = 0
+      status = None
+      if number > 0:
+        if number4 < 0:
+          while True:
+            if (number-number2)/number4 == number3:
+              break
+            elif (number-number2)/number4 < number3:
+              if status != "smaller":
+                status = "smaller"
+                divider += 1
+              number2 = number2 + (1 / (divider*10))
+              number2 = round(number2,divider+1)
+            elif (number-number2)/number4 > number3:
+              if status != "larger":
+                status = "larger"
+                divider += 1
+              number2 = number2 - (1 / (divider*10))
+              number2 = round(number2,divider+1)
+        elif number4 > 0:
+          while True:
+            if (number-number2)/number4 == number3:
+              break
+            elif (number-number2)/number4 < number3:
+              if status != "smaller":
+                status = "smaller"
+                divider += 1
+              number2 = number2 - (1 / (divider*10))
+              number2 = round(number2,divider+1)
+            elif (number-number2)/number4 > number3:
+              if status != "larger":
+                status = "larger"
+                divider += 1
+              number2 = number2 + (1 / (divider*10))
+              number2 = round(number2,divider+1)
+      elif number < 0:
+        if number4 > 0:
+          while True:
+            if (number-number2)/number4 == number3:
+              break
+            elif (number-number2)/number4 < number3:
+              if status != "smaller":
+                status = "smaller"
+                divider += 1
+              number2 = number2 + (1 / (divider*10))
+              number2 = round(number2,divider+1)
+            elif (number-number2)/number4 > number3:
+              if status != "larger":
+                status = "larger"
+                divider += 1
+              number2 = number2 - (1 / (divider*10))
+              number2 = round(number2,divider+1)
+        elif number4 > 0:
+          while True:
+            if (number-number2)/number4 == number3:
+              break
+            elif (number-number2)/number4 < number3:
+              if status != "smaller":
+                status = "smaller"
+                divider += 1
+              number2 = number2 - (1 / (divider*10))
+              number2 = round(number2,divider+1)
+            elif (number-number2)/number4 > number3:
+              if status != "larger":
+                status = "larger"
+                divider += 1
+              number2 = number2 + (1 / (divider*10))
+              number2 = round(number2,divider+1)
+      yint = round(number2,1)
+    if calc == -1:
+      print(f"y = {point4}")
+    elif yint == 0:
       if calc == 0:
         print(f"y = {slope}x")
       elif run == -1.0:
         print(f"y = {-1*rise}x")
       else:
-        print(f"y = {rise}/{run}x")
+        if rise % run == 0:
+          print(f"y = {rise/run}/{run/run}x")
+        elif run % rise == run / 0.5:
+          print(f"y = {rise/rise}/{run/rise}")
+        else:
+          print(f"y = {rise}/{run}")
     elif calc == 0:
-      if yint[1] > 0:
-        print(f"y = {slope}x + {yint[1]}")
-      elif yint[1] < 0:
-        print(f"y = {slope}x {yint[1]}")
+      if yint > 0:
+        print(f"y = {slope}x + {yint}")
+      elif yint < 0:
+        print(f"y = {slope}x {yint}")
     elif run == -1.0:
-      if yint[1] > 0:
-        print(f"y = {-1*rise}x + {yint[1]}")
-      elif yint[1] < 0:
-        print(f"y = {-1*rise}x {yint[1]}")
+      if yint > 0:
+        print(f"y = {-1*rise}x + {yint}")
+      elif yint < 0:
+        print(f"y = {-1*rise}x {yint}")
     else:
-      if yint[1] > 0:
-        print(f"y = {rise}/{run}x + {yint[1]}")
-      elif yint[1] < 0:
-        print(f"y = {rise}/{run}x {yint[1]}")
+      if yint > 0:
+        print(f"y = {rise}/{run}x + {yint}")
+      elif yint < 0:
+        print(f"y = {rise}/{run}x {yint}")
+
+  def perpint():
+    import re
+    eq = input("Enter the slope of the first line ( ex. 1/2x ): ")
+    intsec = input("Enter the point of intersection ( ex. (1,2) ): ")
+    opp = re.sub("[^0-9/.-]","",eq)
+    opp = opp.split("/","")
+    opp[0],opp[1] = int(opp[0]),int(opp[1])
+    opp2 = -1*(opp[1]) / opp[0]
     
 if "__name__" == "__eqsolvecarlover101__":
   equation.quadsolve()
   equation.slopeint()
   equation.commands()
+  equation.perpint()
 
 os.system("clear")
 print("Type equation.commands() to get started or click on 'Code' to read the README.md file for for information.")
