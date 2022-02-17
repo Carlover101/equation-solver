@@ -1,7 +1,7 @@
 # Equation-Solver
 
 [![PyPI Downloads](https://img.shields.io/pypi/dm/eqsolvcarlover101?label=PyPI%20Downloads)](
-https://pypi.org/project/eqsolvcarlover101/)   [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/)
+https://pypi.org/project/eqsolvcarlover101/) [![Github Downloads](https://img.shields.io/github/downloads/Carlover101/equation-solver/total?label=Github%20Downloads)](https://github.com/Carlover101/equation-solver) ![Total Downloads](https://img.shields.io/badge/Total%20Downloads-7k-brightgreen?label=Total%20Downloads) [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/) ![License](https://img.shields.io/badge/License-BSD-lightgray?label=License)
 
 - [**Website**](https://github.com/Carlover101/equation-solver)
 - [**Bug Reports**](https://github.com/Carlover101/equation-solver/issues)
