@@ -1,10 +1,18 @@
 # Equation-Solver
 
+[![PyPI Downloads](https://img.shields.io/pypi/dm/eqsolvcarlover101?label=PyPI%20Downloads)](
+https://pypi.org/project/eqsolvcarlover101/)   [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/)
+
+- [**Website**](https://github.com/Carlover101/equation-solver)
+- [**Bug Reports**](https://github.com/Carlover101/equation-solver/issues)
+- [**Email**](mailto:zmanmustang2017@gmail.com)
+
+
 ### Sidenote: Please read at least the last half of the readme if you are using versions 1.0 or lower, or you'll probably regret it later (It's not that long).
 
 This is a project that solves mathematic equations for you!
 
-Types:= 
+Types:
 
 1. Quadratic
     - ***eqsolvcarlover101.quadsolve()***
@@ -56,5 +64,3 @@ Other Commands:
 - When importing the package, if you are using versions 1.0 or lower, use ***import eqsolvcarlover101.equation*** instead because I haven't figured out how to make it so you don't have to do that yet. It just doesn't work otherwise.
 
 ## Thanks to all for using my work!
-
-- If you have any suggestions, bugs, or more to let me know about, use the [github page](https://github.com/Carlover101/equation-solver)
