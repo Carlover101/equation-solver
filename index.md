@@ -28,4 +28,4 @@
 - Open the terminal and execute _**pip install eqsolvcarlover101**_
 - That's it! Now, you can just use _**import eqsolvcarlover101**_ and it will just work.
 
-### Version information
+### Version Information
