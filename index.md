@@ -1,6 +1,6 @@
 ## Welcome to the eqsolvcarlover101 Package Wiki
 
-[About](./#About) | [Functions](./#functions) | [Installation](./#installation) | [Version Information](./#version-information)
+[About](./#About) | [Functions](./#functions) | [Installation](./#installation) | [Version Information](./#version-information) | [Questions and Answers](./#question-and-answers) | [Contact Me](./#contact-me)
 
 ### About
 
@@ -50,3 +50,14 @@
 
 #### V1.1.4
 - Python version requirement updates.
+
+### Question and Answers
+
+#### Q. 
+ - Why can't import using _**import eqsolvcarlover101**_?
+
+#### A.
+ - Before version 1.1, the necessary file to do that was not present, so you have to use _**import eqsolvcarlover101.equation as eqsolvcarlover101**_.
+
+### Contact Me
+ - Only to ask more specific questions, otherwise you will be blocked, but zmanmustang2017@gmail.com is the email. Otherwise, please use the [issues](https://github.com/Carlover101/equation-solver/issues) page.
