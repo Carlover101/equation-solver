@@ -7,6 +7,7 @@ https://pypi.org/project/eqsolvcarlover101/) [![Github Downloads](https://img.sh
 - [**Bug Reports**](https://github.com/Carlover101/equation-solver/issues)
 - [**Email**](mailto:zmanmustang2017@gmail.com)
 - [**PyPI Page**](https://pypi.org/project/eqsolvcarlover101)
+- [**Documentation**](https://carlover101.github.io/equation-solver)
 
 
 ### Sidenote: Please read at least the last half of the readme if you are using versions 1.0 or lower, or you'll probably regret it later (It's not that long).
