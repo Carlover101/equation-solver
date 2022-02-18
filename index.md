@@ -29,3 +29,24 @@
 - That's it! Now, you can just use _**import eqsolvcarlover101**_ and it will just work.
 
 ### Version Information
+
+#### V0.1.5.9 and before
+- These are just test and development version that don't work when imported.
+
+#### V0.1.6 - V0.2
+- These two versions mark the success of almost a year of work to get this package working correctly.
+
+#### V1.0
+- The first official release with an actual readme file.
+
+#### V1.1
+- Unlike before, you can now import everything with _**import eqsolvcarlover101**_ instead of _**import eqsolvcarlover101.equation as eqsolvcarlover101**_.
+
+#### V1.1.1 - V1.1.2
+- Readme updates.
+
+#### V1.1.3
+- License and Readme updates.
+
+#### V1.1.4
+- Python version requirement updates.
