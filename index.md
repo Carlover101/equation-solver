@@ -51,6 +51,9 @@
 #### V1.1.4
 - Python version requirement updates.
 
+#### V1.1.5
+- Includes link to documentation and some readme updates.
+
 ### Question and Answers
 
 #### Q. 
