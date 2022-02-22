@@ -1,6 +1,6 @@
 ## Welcome to the eqsolvcarlover101 Package Wiki
 
-[About](./#About) | [Functions](./#functions) | [Installation](./#installation) | [Version Information](./#version-information) | [Questions and Answers](./#question-and-answers) | [Contact Me](./#contact-me)
+[About](./#about) | [Functions](./#functions) | [Installation](./#installation) | [Version Information](./#version-information) | [Questions and Answers](./#question-and-answers) | [Contact Me](./#contact-me)
 
 ### About
 
