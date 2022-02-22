@@ -2,7 +2,10 @@ class quadsolve():
   def __init__(self):
     import re
     import os
-    os.system("clear")
+    if os.name == "nt":
+      os.system("cls")
+    else:
+      os.system("clear")
     printed = ""
     quadratic = input("Enter the quadratic equation: ")
     nospaces = re.sub("[^0-9-.*/()+x^=]", "", quadratic)
