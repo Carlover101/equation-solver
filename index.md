@@ -17,6 +17,10 @@
   > This function returns the slope-intercept equation of two points.
   - ex. (1,-2),(-1,2)
 
+#### _**eqsolvcarlover101.midpoint()**_
+  > This function returns the midpoint of two points.
+  - ex. (2,3),(-7,1)
+
 #### _**eqsolvcarlover101.commands()**_
   > This function just lists the available commands.
 
@@ -53,6 +57,12 @@
 
 #### V1.1.5
 - Includes link to documentation and some readme updates.
+
+#### V1.2
+- Added the _**eqsolvcarlover101.midpoint()**_ equation.
+
+#### V1.2.1
+- Updated the _**eqsolvcarlover101.commands()**_ and _**eqsolvcarlover101.help()**_ equations.
 
 ### Question and Answers
 
