@@ -206,16 +206,20 @@ class equation:
     import re
     eq = input("Enter the slope of the first line ( ex. 1/2x ): ")
     intsec = input("Enter the point of intersection ( ex. (1,2) ): ")
-    opp = re.sub("[^0-9/.-]","",eq)
+    opp = eq.replace("[^0-9/.-]","")
     opp = opp.split("/","")
     opp[0],opp[1] = int(opp[0]),int(opp[1])
     opp2 = -1*(opp[1]) / opp[0]
-    
-if "__name__" == "__eqsolvecarlover101__":
-  equation.quadsolve()
-  equation.slopeint()
-  equation.commands()
-  equation.perpint()
+
+  def midpoint():
+    import re
+    points = input("Enter two points. ( ex. (-1,2),(1,-2) ): ")
+    points = points.split(",")
+    point1 = int(re.sub("[^0-9.-]","",points[0]))
+    point2 = int(re.sub("[^0-9.-]","",points[1]))
+    point3 = int(re.sub("[^0-9.-]","",points[2]))
+    point4 = int(re.sub("[^0-9.-]","",points[3]))
+    print(f"Midpoint: ({(point1 + point3)/2},{(point2 + point4)/2})")
 
 os.system("clear")
 print("Type equation.commands() to get started or click on 'Code' to read the README.md file for for information.")
