@@ -5,4 +5,4 @@ class help():
       os.system("cls")
     else:
       os.system("clear")
-    print("Type equation.commands() to get started or click on 'Code' to read the README.md file for for information.")
+    print("Type eqsolvcarlover101.commands() to get started or read the README.md file for more information.")
