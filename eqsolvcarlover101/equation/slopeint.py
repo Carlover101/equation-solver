@@ -2,7 +2,10 @@ class slopeint():
   def __init__(self):
     import re
     import os
-    os.system("clear")
+    if os.name == "nt":
+      os.system("cls")
+    else:
+      os.system("clear")
     yint = ""
     eq = input("Enter two points (ex. (1,-1),(2,-1) ): ")
     eq = eq.split(",")
