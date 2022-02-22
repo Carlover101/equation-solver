@@ -5,4 +5,4 @@ class commands():
       os.system("cls")
     else:
       os.system("clear")
-    print("The commands are: \nequation.quadsolve() - For quadratic equations. \nequation.slopeint() - For slope-intercept equations. - NEW: May still have bugs, but works for right now :) \nequation.help() - Brings up the help page.")
+    print("The commands are: \neqsolvcarlover101.quadsolve() - For quadratic equations. \neqsolvcarlover101.slopeint() - For slope-intercept equations. \neqsolvcarlover101.midpoint() - For finding the midpoint of two points. \neqsolvcarlover101.help() - Brings up the help page.")
