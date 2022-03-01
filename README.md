@@ -77,6 +77,9 @@ Other Commands:
 #### V1.3
   - Added the _**eqsolvcarlover101.perpint()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
 
+#### V1.3.1
+  - Fixed an issue with the _**eqsolvcarlover101.commands()**_ function.
+
 ## Helpful Info:
 
 - When importing the package, if you are using versions 1.0 or lower, use ***import eqsolvcarlover101.equation*** instead because I haven't figured out how to make it so you don't have to do that yet. It just doesn't work otherwise.
