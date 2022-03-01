@@ -24,15 +24,13 @@ Types:
     - ***eqsolvcarlover101.slopeint()***
       > Put in two points, and output an equation in slope-intercept form.
 
-Types in Development (Not included in the package, but will probably be on github.):
+3. Midpoint
+    - _**eqsolvcarlover101.midpoint()**_
+      > Put in two points and output the midpoint.
 
-1. Perpendicular Lines
+4. Perpendicular Lines - NEW
     - ***eqsolvcarlover101.perpint()***
       > Put in the slope of a line, and the intersection point, and get the slope-intercept equation of the perpendicular line.
-
-2. Midpoint
-    - ***eqsolvcarlover101.midpoint()***
-      > Gives you the midpoint of two points.
 
 Other Commands:
 
@@ -60,6 +58,24 @@ Other Commands:
 
 #### V1.1.1 - V1.1.2:
   - I just forgot to update the readme correctly. The code is the exact same.
+
+#### V1.1.3
+  - License and Readme updates.
+
+#### V1.1.4
+  - Python version requirement updates.
+
+#### V1.1.5
+  - Includes link to new documentation and some readme updates.
+
+#### V1.2
+  - Added _**eqsolvcarlover101.midpoint()**_.
+
+#### V1.2.1
+  - Updated the _**eqsolvcarlover101.commands()**_ and _**eqsolvcarlover101.help()**_ functions.
+
+#### V1.3
+  - Added the _**eqsolvcarlover101.perpint()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
 
 ## Helpful Info:
 
