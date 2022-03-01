@@ -6,7 +6,7 @@ def read(fname):
 
 setuptools.setup(
     name="eqsolvcarlover101",
-    version="1.3",
+    version="1.3.1",
     author="Zakkai Thomas",
     author_email="zmanmustang2017@gmail.com",
     description="Automatic equation solver",
