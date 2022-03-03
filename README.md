@@ -28,9 +28,15 @@ Types:
     - _**eqsolvcarlover101.midpoint()**_
       > Put in two points and output the midpoint.
 
-4. Perpendicular Lines - NEW
+4. Perpendicular Lines
     - ***eqsolvcarlover101.perpint()***
       > Put in the slope of a line, and the intersection point, and get the slope-intercept equation of the perpendicular line.
+
+5. Similar Shapes Check
+    - ***eqsolvcarlover101.issim()***
+      > Takes the lengths of the sides of one shape and the corresponding side lengths of the sides of a second shape.
+      > 
+      > If the shapes are similar, it will return the scale factor.
 
 Other Commands:
 
@@ -79,6 +85,9 @@ Other Commands:
 
 #### V1.3.1
   - Fixed an issue with the _**eqsolvcarlover101.commands()**_ function.
+
+#### V1.4
+  - Added the _**eqolvcarlover101.issim()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
 
 ## Helpful Info:
 
