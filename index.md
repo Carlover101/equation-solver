@@ -64,6 +64,18 @@
 #### V1.2.1
 - Updated the _**eqsolvcarlover101.commands()**_ and _**eqsolvcarlover101.help()**_ equations.
 
+#### V1.3
+  - Added the _**eqsolvcarlover101.perpint()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
+
+#### V1.3.1
+  - Fixed an issue with the _**eqsolvcarlover101.commands()**_ function.
+
+#### V1.4
+  - Added the _**eqolvcarlover101.issim()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
+
+#### V1.5
+  - Added the _**eqsolvcarlover101.findright()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
+
 ### Question and Answers
 
 #### Q. 
