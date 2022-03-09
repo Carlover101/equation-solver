@@ -38,6 +38,10 @@ Types:
       > 
       > If the shapes are similar, it will return the scale factor.
 
+6. Missing Right Triangle Lengths
+   - ***eqsolvcarlover101.findright()***
+     > Finds the missing length of a right triangle.
+
 Other Commands:
 
 1. Command List
@@ -88,6 +92,9 @@ Other Commands:
 
 #### V1.4
   - Added the _**eqolvcarlover101.issim()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
+
+#### V1.5
+  - Added the _**eqsolvcarlover101.findright()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
 
 ## Helpful Info:
 
