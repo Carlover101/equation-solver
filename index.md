@@ -21,6 +21,17 @@
   > This function returns the midpoint of two points.
   - ex. (2,3),(-7,1)
 
+#### ***eqsolvcarlover101.perpint()***
+  > Put in the slope of a line, and the intersection point, and get the slope-intercept equation of the perpendicular line.
+
+#### ***eqsolvcarlover101.issim()***
+  > Takes the lengths of the sides of one shape and the corresponding side lengths of the sides of a second shape.
+  > 
+  > If the shapes are similar, it will return the scale factor.
+
+#### ***eqsolvcarlover101.findright()***
+  > Finds the missing length of a right triangle.
+
 #### _**eqsolvcarlover101.commands()**_
   > This function just lists the available commands.
 
