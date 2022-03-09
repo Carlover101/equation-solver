@@ -3,11 +3,11 @@
 [![PyPI Downloads](https://img.shields.io/pypi/dm/eqsolvcarlover101?label=PyPI%20Downloads)](
 https://pypi.org/project/eqsolvcarlover101/) [![Github Downloads](https://img.shields.io/github/downloads/Carlover101/equation-solver/total?label=Github%20Downloads)](https://github.com/Carlover101/equation-solver) [![Downloads](https://static.pepy.tech/personalized-badge/eqsolvcarlover101?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Total%20Downloads)](https://pepy.tech/project/eqsolvcarlover101) [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/) ![License](https://img.shields.io/badge/License-BSD-lightgray?label=License) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Carlover101/equation-solver/CodeQL?label=Code%20Status)
 
-- **[Website](https://github.com/Carlover101/equation-solver)**
-- **[Bug Reports](https://github.com/Carlover101/equation-solver/issues)**
-- **[Email](mailto:zmanmustang2017@gmail.com)**
-- **[PyPI Page](https://pypi.org/project/eqsolvcarlover101)**
-- **[Documentation](https://carlover101.github.io/equation-solver)**
+- [**Website**](https://github.com/Carlover101/equation-solver)
+- [**Bug Reports**](https://github.com/Carlover101/equation-solver/issues)
+- [**Email**](mailto:zmanmustang2017@gmail.com)
+- [**PyPI Page**](https://pypi.org/project/eqsolvcarlover101)
+- [**Documentation**](https://carlover101.github.io/equation-solver)
 
 
 ### Sidenote: Please read at least the last half of the readme if you are using versions 1.0 or lower, or you'll probably regret it later (It's not that long).
@@ -28,9 +28,19 @@ Types:
     - _**eqsolvcarlover101.midpoint()**_
       > Put in two points and output the midpoint.
 
-4. Perpendicular Lines - NEW
+4. Perpendicular Lines
     - ***eqsolvcarlover101.perpint()***
       > Put in the slope of a line, and the intersection point, and get the slope-intercept equation of the perpendicular line.
+
+5. Similar Shapes Check
+    - ***eqsolvcarlover101.issim()***
+      > Takes the lengths of the sides of one shape and the corresponding side lengths of the sides of a second shape.
+      > 
+      > If the shapes are similar, it will return the scale factor.
+
+6. Missing Right Triangle Lengths
+   - ***eqsolvcarlover101.findright()***
+     > Finds the missing length of a right triangle.
 
 Other Commands:
 
@@ -79,6 +89,12 @@ Other Commands:
 
 #### V1.3.1
   - Fixed an issue with the _**eqsolvcarlover101.commands()**_ function.
+
+#### V1.4
+  - Added the _**eqolvcarlover101.issim()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
+
+#### V1.5
+  - Added the _**eqsolvcarlover101.findright()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
 
 ## Helpful Info:
 
