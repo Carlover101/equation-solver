@@ -5,3 +5,4 @@ from .help import help
 from .midpoint import midpoint
 from .perpint import perpint
 from .issim import issim
+from .findright import findright
