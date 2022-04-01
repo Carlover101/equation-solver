@@ -1,5 +1,7 @@
 # Equation-Solver - Thank you for 10,000 downloads!!!
 
+## Update: Sorry for no new stuff or updates! I've been gone for a while out of the country on a mission trip. I'm back now and should be back to fairly rehular updates.
+
 [![PyPI Downloads](https://img.shields.io/pypi/dm/eqsolvcarlover101?label=PyPI%20Downloads)](
 https://pypi.org/project/eqsolvcarlover101/) [![Github Downloads](https://img.shields.io/github/downloads/Carlover101/equation-solver/total?label=Github%20Downloads)](https://github.com/Carlover101/equation-solver) [![Downloads](https://static.pepy.tech/personalized-badge/eqsolvcarlover101?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Total%20Downloads)](https://pepy.tech/project/eqsolvcarlover101) [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/) ![License](https://img.shields.io/badge/License-BSD-lightgray?label=License) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Carlover101/equation-solver/CodeQL?label=Code%20Status)
 
