@@ -1,4 +1,4 @@
-# Equation-Solver - Thank you for 10,000 downloads!!!
+# Equation-Solver - Thank you for 25,000 downloads!!!
 
 ## Update: Sorry for no new stuff or updates! I've been gone for a while out of the country on a mission trip. I'm back now and should be back to fairly regular updates.
 
