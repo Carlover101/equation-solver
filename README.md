@@ -93,13 +93,19 @@ Other Commands:
   - Fixed an issue with the _**eqsolvcarlover101.commands()**_ function.
 
 #### V1.4
-  - Added the _**eqolvcarlover101.issim()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
+  - Added the _**eqsolvcarlover101.issim()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
 
 #### V1.5
-  - Added the _**eqsolvcarlover101.findright()**_ function and updated the _**eqsolvcarlover101.commands()**_ function.
+  - Added the eqsolvcarlover101.findright() function and updated the eqsolvcarlover101.commands() function.
+#### V1.5.1.0
+  - Changed the package name from eqsolvcarlover101 to eqsolve.
+  - Updated the eqsolve.commands() function.
+  - Updated the eqsolve.help() function.
+  - Fixed a text error in the eqsolve.issim() function.
+  - Updated README.MD.
+  - Updated package description.
 
-## Helpful Info:
-
-- When importing the package, if you are using versions 1.0 or lower, use ***import eqsolvcarlover101.equation*** instead because I haven't figured out how to make it so you don't have to do that yet. It just doesn't work otherwise.
-
-## Thanks to all for using my work!
+### Helpful Info:
+  - When importing the package, if you are using versions 1.0 or lower, use import eqsolvcarlover101.equation instead because I hadn't figured out how to make it so you didn't have to do that yet. It just doesn't work otherwise.
+  - If you are using versions 1.1 - 1.5.1, then you cannot use import eqsolve.*, instead use import eqsolvcarlover101.*.
+Thanks to all for using my work!
