@@ -108,4 +108,5 @@ Other Commands:
 ### Helpful Info:
   - When importing the package, if you are using versions 1.0 or lower, use import eqsolvcarlover101.equation instead because I hadn't figured out how to make it so you didn't have to do that yet. It just doesn't work otherwise.
   - If you are using versions 1.1 - 1.5.1, then you cannot use import eqsolve.*, instead use import eqsolvcarlover101.*.
-Thanks to all for using my work!
+
+### Thanks to all for using my work!
