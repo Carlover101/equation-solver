@@ -1,9 +1,9 @@
-# Equation-Solver - Thank you for 25,000 downloads!!!
+# Eqsolve 
+- A mathematical Python package by Zakkai Thomas
 
-## Update: Sorry for no new stuff or updates! I've been gone for a while out of the country on a mission trip. I'm back now and should be back to fairly regular updates.
+## [**Continuation of eqsolvcarlover101 - Deprecated**](https://pypi.org/project/eqsolvcarlover101)
 
-[![PyPI Downloads](https://img.shields.io/pypi/dm/eqsolvcarlover101?label=PyPI%20Downloads)](
-https://pypi.org/project/eqsolvcarlover101/) [![Github Downloads](https://img.shields.io/github/downloads/Carlover101/equation-solver/total?label=Github%20Downloads)](https://github.com/Carlover101/equation-solver) [![Downloads](https://static.pepy.tech/personalized-badge/eqsolvcarlover101?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Total%20Downloads)](https://pepy.tech/project/eqsolvcarlover101) [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/) ![License](https://img.shields.io/badge/License-BSD-lightgray?label=License) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Carlover101/equation-solver/CodeQL?label=Code%20Status)
+[![Downloads](https://static.pepy.tech/personalized-badge/eqsolvcarlover101?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Total%20Downloads)](https://pepy.tech/project/eqsolvcarlover101) [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/) ![License](https://img.shields.io/badge/License-BSD-lightgray?label=License)
 
 - [**Website**](https://github.com/Carlover101/equation-solver)
 - [**Bug Reports**](https://github.com/Carlover101/equation-solver/issues)
@@ -12,48 +12,65 @@ https://pypi.org/project/eqsolvcarlover101/) [![Github Downloads](https://img.sh
 - [**Documentation**](https://carlover101.github.io/equation-solver)
 
 
-### Sidenote: Please read at least the last half of the readme if you are using versions 1.0 or lower, or you'll probably regret it later (It's not that long).
-
 This is a project that solves mathematic equations for you!
 
-Types:
+
+# How to Install:
+
+1. Make sure you have Python installed by typing `python3` in the command prompt.
+   > If not, go to [python.org](https://python.org) to get the latest release.
+
+2. Enter `pip install eqsolve`.
+
+3. Use `import eqsolve` in your code to begin using the package.
+
+#
+
+
+## Functions:
 
 1. Quadratic
-    - ***eqsolvcarlover101.quadsolve()***
+    - ***eqsolve.quadsolve()***
       > To type a square in python, you need to use a carrot **^** or two astrix **. (Ex. 2x^2 -5x +4)
 
 2. Slope Intercept
-    - ***eqsolvcarlover101.slopeint()***
+    - ***eqsolve.slopeint()***
       > Put in two points, and output an equation in slope-intercept form.
 
 3. Midpoint
-    - _**eqsolvcarlover101.midpoint()**_
+    - _**eqsolve.midpoint()**_
       > Put in two points and output the midpoint.
 
 4. Perpendicular Lines
-    - ***eqsolvcarlover101.perpint()***
+    - ***eqsolve.perpint()***
       > Put in the slope of a line, and the intersection point, and get the slope-intercept equation of the perpendicular line.
 
 5. Similar Shapes Check
-    - ***eqsolvcarlover101.issim()***
+    - ***eqsolve.issim()***
       > Takes the lengths of the sides of one shape and the corresponding side lengths of the sides of a second shape.
-      > 
       > If the shapes are similar, it will return the scale factor.
 
 6. Missing Right Triangle Lengths
-   - ***eqsolvcarlover101.findright()***
+   - ***eqsolve.findright()***
      > Finds the missing length of a right triangle.
 
-Other Commands:
+7. Compounding Intersest
+   - ***eqsolve.intcompound(p,r,n,t)***
+     > Calculates the amount of money present/money owed after a number of years using the provided interest rate and the number of times it is compounded yearly.
+
+8. Continuously Compounding Interest
+   - ***eqsolve.contcompound(p,r,t)***
+     > Calculates the amount of money present/money owed after a number of years if the interest provided is compounded continuously.
+
+### Other Commands:
 
 1. Command List
-    - ***eqsolvcarlover101.commands()***
+    - ***eqsolve.commands()***
 
 2. Help
-    - ***eqsolvcarlover101.help()***
+    - ***eqsolve.help()***
 
-
-## Version Info:
+## Version Info (eqsolvcarlover101):
 
 #### V0.1.5.9 and before:
   - Don't even try to use these. They don't do anything...
@@ -105,8 +122,20 @@ Other Commands:
   - Updated README.MD.
   - Updated package description.
 
+## Version Info (eqsolve):
+
+#### V1.0.0
+    - Added _**eqsolve.intcompound()**_ and _**eqsolve.contcompound()**_ functions.
+    - Updated all function descriptions so they work with python's default ***help(...)*** function.
+    - Updated all functions to move away from ***input()*** towards proper function notation.
+    - Updated **README.md** so it reflects current statistics and project version info.
+
+#### V1.0.1
+    - Fixed some errors in the **README.md** file.
+
+
 ### Helpful Info:
   - When importing the package, if you are using versions 1.0 or lower, use import eqsolvcarlover101.equation instead because I hadn't figured out how to make it so you didn't have to do that yet. It just doesn't work otherwise.
   - If you are using versions 1.1 - 1.5.1, then you cannot use import eqsolve.*, instead use import eqsolvcarlover101.*.
 
-### Thanks to all for using my work!
+### Thanks for using my work!
