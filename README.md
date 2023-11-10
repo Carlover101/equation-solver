@@ -123,15 +123,13 @@ This is a project that solves mathematic equations for you!
   - Updated package description.
 
 ## Version Info (eqsolve):
-
 #### V1.0.0
-    - Added _**eqsolve.intcompound()**_ and _**eqsolve.contcompound()**_ functions.
-    - Updated all function descriptions so they work with python's default ***help(...)*** function.
-    - Updated all functions to move away from ***input()*** towards proper function notation.
-    - Updated **README.md** so it reflects current statistics and project version info.
-
+   - Added _**eqsolve.intcompound()**_ and _**eqsolve.contcompound()**_ functions.
+   - Updated all function descriptions so they work with python's default ***help(...)*** function.
+   - Updated all functions to move away from ***input()*** towards proper function notation.
+   - Updated **README.md** so it reflects current statistics and project version info.
 #### V1.0.1
-    - Fixed some errors in the **README.md** file.
+   - Fixed some errors in the **README.md** file.
 
 
 ### Helpful Info:
