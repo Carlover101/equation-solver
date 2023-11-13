@@ -3,7 +3,7 @@
 
 ## [**Continuation of eqsolvcarlover101 - Deprecated**](https://pypi.org/project/eqsolvcarlover101)
 
-[![Downloads](https://static.pepy.tech/personalized-badge/eqsolvcarlover101?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Total%20Downloads)](https://pepy.tech/project/eqsolvcarlover101) [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/) ![License](https://img.shields.io/badge/License-BSD-lightgray?label=License)
+[![Downloads](https://static.pepy.tech/personalized-badge/eqsolvcarlover101?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Total%20Downloads%20(Old%20Package))](https://pepy.tech/project/eqsolvcarlover101) [![Downloads](https://static.pepy.tech/personalized-badge/eqsolve?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Total%20Downloads%20(New%20Package))](https://pepy.tech/project/eqsolve) [![Latest Version](https://img.shields.io/pypi/v/eqsolvcarlover101?label=Latest%20Version)](https://pypi.org/project/eqsolvcarlover101/) ![License](https://img.shields.io/badge/License-BSD-lightgray?label=License)
 
 - [**Website**](https://github.com/Carlover101/equation-solver)
 - [**Bug Reports**](https://github.com/Carlover101/equation-solver/issues)
